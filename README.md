@@ -328,11 +328,11 @@ and should not make human work more difficult.
 As I'm doing a lot of with [Hexagonal architecture](https://github.com/alexander-schranz/hexagonal-architecture-study)
 in the last time. The questions is that the API json structure should
 really be part of the "Application Core". As it should maybe
-be the API Controller "Adapter" defining it s response structure
+be the API Controller "Adapter" defining its response structure
 and not the Domain Model. I'm thinking that the Structure of my
 API point are so important for my Business Logic that they should
 be part of my Application Core and not should be defined outside
-of it over some Infrastructure configuration or other things. Alternate
+of it over some Infrastructure configuration or other things. Alternate solution
 as listed above and [DDD](https://de.wikipedia.org/wiki/Domain-driven_Design)
 representation models and repositories which I think hard sometimes
 to maintain and getting to whole Team into this Mindset.
